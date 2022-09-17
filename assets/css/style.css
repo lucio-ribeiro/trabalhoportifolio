@@ -19,10 +19,6 @@ body {
   animation-duration: 4s;
 }
 
-.paragrafo {
-  text-decoration: none;
-}
-
 .navigation ul {
   margin-top: 0;
   list-style: none;
@@ -51,11 +47,6 @@ body {
 
 .capa {
   color: white;
-}
-
-.capa span {
-  color: #f27609;
-  display: block;
 }
 
 .capa div {
@@ -106,13 +97,26 @@ body {
   animation-name: conteudo;
   animation-duration: 2s;
   text-align: center;
-  width: 100%;
+  width: 50%;
   margin-top: 100px;
+  margin-left: 300px;
+  
 }
 
-.cv-pic {
-  float: right;
-  width: 360px;
+.mainsobre {
+  animation-name: conteudo;
+  animation-duration: 2s;
+  text-align: center;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 300px;
+  
+}
+
+.mainsobre h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
 }
 
 .main h1 {
@@ -143,26 +147,9 @@ body {
   
 }
 
-.caminho {
-  list-style: none;
-  padding-left: 0;
-  color: grey;
-}
-
-.caminho li {
-  display: inline-block;
-}
-
-.titulos h1 {
-  font-weight: bold;
-}
-
-.titulos h2 {
-  font-weight: bold;
-}
-
 .social-img {
   width: 50px;
+
   margin-right: 10px;
 }
 
@@ -178,107 +165,6 @@ body {
   animation-duration: 4s;
 }
 
-.primeira {
-  width: 320px;
-  height: 320px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  display: inline-block;
-  background-size: contain;
-  overflow: hidden;
-  animation-name: imagem;
-  animation-duration: 4s;
-}
-
-.capao {
-  width: 50px;
-  height: 50px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
-  background-size: contain;
-}
-
-.cv-pic {
-  animation-name: imagem;
-  animation-duration: 4s;
-}
-
-.blackbox {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0;
-  padding-top: 120px;
-  transition: 1s;
-}
-
-.miniatura a {
-  text-decoration: none;
-}
-
-.blackbox:hover {
-  opacity: 0.8;
-  transition: 1s;
-}
-
-.blackboxtext {
-  text-align: center;
-}
-
-.blackboxtext h1 {
-  font-size: 16px;
-  color: #f27609;
-  text-transform: uppercase;
-  margin-top: 0px;
-}
-
-.blackboxtext h2 {
-  text-transform: none;
-  font-weight: 100;
-  margin-top: 0px;
-}
-
-.foto-trabalhos {
-  width: 50%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main .tet p {
-  width: 50%;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main .tet h2 {
-  width: 50%;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main .tet h1 {
-  text-align: center;
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
-.cortitulo {
-  color: #f27609;
-  font-weight: bold;
-}
 
 .navigation li.threeline-icon {
   display: none;
@@ -288,16 +174,6 @@ body {
   color: #f27609;
   cursor: pointer;
 }
-
-.caminho a {
-  color: grey;
-}
-
-/* .tet h1,
-h2,
-p,
-a {
-} */
 
 @keyframes profile-capa {
   0% {
@@ -403,28 +279,9 @@ a {
     line-height: 30px;
   }
 
-  .caminho li {
-    font-size: 14px;
-  }
-
-  .cv-pic {
-    float: none;
-    max-width: 80%;
-    margin-right: auto;
-  }
-
   .miniatura {
     max-width: 80%;
     background-size: auto 100%;
-  }
-
-  .capao {
-    max-width: 80%;
-    background-size: auto 100%;
-  }
-
-  .blackbox {
-    opacity: 0.8;
   }
 
   .main .tet p {
@@ -449,33 +306,5 @@ a {
     padding: 10px 10px 10px 25px;
     width: 80%;
     font-size: 26px;
-  }
-
-  .foto-trabalhos {
-    width: 89%;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    margin-right: 0%;
-    margin-left: 6%;
-    display: block;
-    float: left;
-  }
-
-  .menujs {
-    height: auto;
-  }
-
-  .menujs ul {
-    height: auto;
-    text-align: center;
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-
-  .menujs li {
-    display: block;
-    border-bottom: solid grey 1px;
-    width: 100%;
-    padding: 0;
   }
 }
