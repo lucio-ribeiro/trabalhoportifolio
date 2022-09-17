@@ -113,6 +113,17 @@ body {
   
 }
 
+.mainsobre p {
+  font-size: 15px;
+  font-weight: 100px;
+  color: black;
+  line-height: 24px;
+  text-align: justify;
+  
+}
+
+
+
 .mainsobre h1 {
   color: white;
   font-weight: bold;
